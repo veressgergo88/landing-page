@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*All sections, buttons*/
+.first-section, .footer {
+    background-color: #1f2937;
+}
+
+.first-section, .second-section, .third-section, .fourth-section {
+    padding:20px 250px 25px 250px;
+}
+
+button {
+    color:#f9faf8;
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 5px 20px;
+}
+
+/*first-section*/
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 2em 0;
+}
+
+a {
+    padding: 0 10px 0 10px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-little-box {
+    padding: 0 27em 0 0;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.nav-bar, .welcome-box p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.top-button {
+    margin: 1em 0 0 0;
+}
+/*second-section*/
+
+.top-box p {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.bottom-box {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+}
+
+.little-box {
+    width: 155px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.little-box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+    border: 2px solid #3882f6;
+}
+
+.little-box p {
+
+    text-align: justify;
+}
+
+/*third-section*/
+.third-section {
+    background-color: #e5e7eb;
+}
+
+.center-box {
+    padding: 5% 25% ;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+/*fourth-section*/
+
+.little-container {
+    background-color: #3882f6;
+    margin: 5% 15%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*footer*/
+
+.footer {
+    color: #e5e7eb;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.bottom-button {
+    border:2px solid #e5e7eb;
+}
